@@ -1,18 +1,31 @@
 {
     "name": "PizzaChen/umeng-umengpush",
-    "description": "The umeng Framework.",
+    "description": "umeng for laravel",
+    "keywords": [
+        "laravel",
+        "lumen",
+        "umeng"
+    ],
+    "homepage": "https://github.com/PizzaChen/umeng-umengpush",
+    "license": "MIT",
     "authors": [
         {
             "name": "Pizza Chen"
         }
     ],
-    "license": "MIT",
     "require": {
-        "php": ">=5.6"
+        "illuminate/support": "~5.1",
+        "php" : "~5.6|~7.0"
     },
     "autoload": {
         "psr-4": {
-            "PizzaChen\\umeng-umengpush\\": "src/"
+            "PizzaChen\\umeng-umengpush\\": "src"
         }
-    }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PizzaChen\\umeng-umengpush\\": "tests"
+        }
+    },
+     "minimum-stability": "stable"
 }
